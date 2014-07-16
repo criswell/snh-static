@@ -59,9 +59,9 @@ function resetParticle(p) {
 }
 
 function init() {
-  canvas = document.getElementById("snhCanvas")
-    stage = new createjs.Stage(canvas);
-  logo = new createjs.Bitmap("snh.png");
+  canvas = document.getElementById("snhCanvas");
+  stage = new createjs.Stage(canvas);
+  logo = new createjs.Bitmap("http://files.samhart.net/snh-static/snh.png");
   w = document.getElementById('mainWell').offsetWidth;
   canvas.width = w;
   h = canvas.height;
